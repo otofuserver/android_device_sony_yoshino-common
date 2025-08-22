@@ -15,8 +15,8 @@
 ### AUDIO
 PRODUCT_PACKAGES += \
     audio.r_submix.default \
-    audio.usb.default \
-    libvolumelistener
+    audio.usb.default
+#    libvolumelistener
 
 # BLUETOOTH
 PRODUCT_PACKAGES += \
@@ -213,8 +213,8 @@ PRODUCT_PACKAGES += \
     TetheringConfigOverlay
 
 ### VR
-PRODUCT_PACKAGES += \
-    vr.msm8998
+#PRODUCT_PACKAGES += \
+#    vr.msm8998
 
 ### WIFI
 PRODUCT_PACKAGES += \
